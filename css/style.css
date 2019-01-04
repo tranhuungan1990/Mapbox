@@ -1,0 +1,30 @@
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
+
+/*Ẩn Thông tin Mapbox*/
+div.leaflet-bottom.leaflet-right{
+	display: none;
+}
+
+/*Ẩn logo Mapbox*/
+.mapbox-logo.leaflet-control.mapbox-logo-true {
+    display: none;
+}
+
+img#logo{
+	border: solid 2px white;
+	position: absolute;
+	z-index: 100000;
+	top: 5px;
+	right: 5px;
+}
+
+.ten-cty-bottom{
+	background: rgba(255,255,255,.5);
+    z-index: 999999999;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0 5px;
+    font-family: monospace;
+}
